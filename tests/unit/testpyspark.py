@@ -12,6 +12,7 @@ class PySparkCoreSuite(TypeCheckSuite):
         "ml-readable.test",
         "resultiterable.test",
         "sql-readwriter.test",
+        "sql-session.test",
         "udf.test",
     ]
     required_out_section = True
